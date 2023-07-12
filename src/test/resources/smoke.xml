@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="SMOKE" parallel="tests" thread-count="1" verbose="10">
+
+    <test name="Select Phones">
+        <classes>
+            <class name="Test.SelectPhones"></class>
+        </classes>
+    </test>
+
+    <test name="Login in correcto">
+        <classes>
+            <class name="Test.LoginInCorrectoTest"></class>
+        </classes>
+    </test>
+</suite>
